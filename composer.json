@@ -1,6 +1,6 @@
 {
-    "name": "drupal/console-fr",
-    "description": "Drupal Console French Language",
+    "name": "drupal/console-ca",
+    "description": "Drupal Console Catalan Language",
     "keywords": ["Drupal", "Console", "Development", "Symfony"],
     "homepage": "http://drupalconsole.com/",
     "type": "drupal-console-language",
@@ -31,7 +31,7 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/hechoendrupal/drupal-console-fr/issues",
+        "issues": "https://github.com/hechoendrupal/drupal-console-ca/issues",
         "forum": "https://gitter.im/hechoendrupal/DrupalConsole",
         "docs": "https://hechoendrupal.gitbooks.io/drupal-console/"
     },
