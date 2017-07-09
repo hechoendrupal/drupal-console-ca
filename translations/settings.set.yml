@@ -1,5 +1,7 @@
 description: 'Canviar un valor especific al fitxer de configuració de Drupal Console'
 arguments:
+    name: 'Setting name in YAML flatten format to set a value in Drupal Console config file'
+    value: 'Setting value to set in Drupal Console config file'
     setting-name: 'Nom de la configuració en text sense format del fitxer YAML amb el valor del fitxer de configuració'
     setting-value: 'El valor a establir al fitxer de configuració'
 messages:
@@ -8,3 +10,4 @@ messages:
     error-writing: 'S''ha produït un error al escriure el fitxer de configuració.'
     success: 'El valor "%s" s''ha definit com "%s"'
     missing-file: 'The "%s" config file is missing, try executing `drupal init`'
+    missing-language: 'Provided language: "%s", not found'

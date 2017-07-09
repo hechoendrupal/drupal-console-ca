@@ -8,3 +8,10 @@ messages:
     content_type_exported: 'Exportant tipus de contingut'
 options:
     optional-config: 'Exportar tipus de contingut com un fitxer de configuració opcional YAML en el teu mòdul'
+examples:
+    -
+        description: 'Provide a content type  and module name'
+        execution: "drupal config:export:content:type page \\\n  --module=\"demo\""
+    -
+        description: 'If you want export content type provide the optional config'
+        execution: "drupal config:export:content:type page \\\n  --module=\"demo\" \\\n  --optional-config \n"

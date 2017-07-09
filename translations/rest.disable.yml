@@ -7,3 +7,4 @@ questions:
 messages:
     invalid-rest-id: 'l''identificador Rest "%s" no és vàlid'
     success: 'Rest ID "%s" disabled'
+    already-disabled: 'Rest ID "%s" was already disabled'

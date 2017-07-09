@@ -2,6 +2,8 @@ options:
     class: 'Class name'
     events: 'Carregar esdeveniments des del contenidor'
     module: 'Nom del mòdul.'
+    extension: 'The extension name.'
+    extension-type: 'The extension type.'
     services: 'Carregar serveis des del contenidor.'
     tags: 'Definir etiqueta des del contenidor.'
     inputs: 'Crear camp entrada (input) en un formulari.'
@@ -9,6 +11,8 @@ options:
 questions:
     class: 'Enter the Class name'
     module: 'Introduir el nome del módul'
+    extension: 'Enter the extension name'
+    extension-type: 'Enter the extension type'
     confirm: '¿Confirma la generació?'
     canceled: 'Comandament de generació cancel·lat.'
     events:

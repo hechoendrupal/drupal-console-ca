@@ -6,3 +6,7 @@ messages:
     database-not-supported: 'El tipus de base de dades "%s" encara no és soportada'
     database-client-not-found: 'No s''ha trobat el client de la base de dades "%s"'
     connection: 'Connexió: "%s"'
+examples:
+    -
+        description: 'Connects to an specified database, or the default if not arguments passed'
+        execution: "drupal database:connect \\\n  <database>\n"

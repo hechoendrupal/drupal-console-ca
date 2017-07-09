@@ -13,6 +13,7 @@ questions:
     service-name: 'Introduïu el nom del servei'
     class: 'Introduïu el nom de la classe'
     interface: 'Crear una interfície'
+    interface-name: 'Enter the interface name'
     services: common.options.services
     path: 'Enter the path for the services'
 messages:

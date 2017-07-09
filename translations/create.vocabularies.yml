@@ -12,3 +12,7 @@ messages:
     name: Nom
     created-terms: 'S''han creat correctament "%s" vocabularis'
     error: 'S''ha produït un error creant el vocabulari: "%s"'
+examples:
+    -
+        description: 'Provide the number of vocabularies to create and maximum number of words in vocabulary names'
+        execution: "drupal create:vocabularies \\\n  --limit=\"5\" \\\n  --name-words=\"5\"\n"

@@ -9,3 +9,10 @@ messages:
     event-deleted: 'S''ha esborrat l''esdeveniment "%s"'
     clear-error: 'El procés de neteja a fallat, verifica els filtres utilitzats'
     clear-sucess: 'S''ha completat correctament el procés de neteja'
+examples:
+    -
+        description: 'Clear the database log from DBLog table'
+        execution: "drupal database:log:clear \\\n  <database>"
+    -
+        description: 'Clear the database log from DBLog table using filters'
+        execution: "drupal database:log:clear \\\n  <database> \\\n  --type=TYPE \\\n  --severity=SEVERITY"

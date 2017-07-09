@@ -13,6 +13,7 @@ options:
     composer: 'Afegir fitxer composer.json'
     dependencies: 'Dependències del mòdul separades per comes (p.e. context, panels)'
     test: 'Generar classe de verificació'
+    twigtemplate: 'Generate theme template'
     controller: 'Controllador predeterminat'
 questions:
     module: 'Nom del nou mòdul'
@@ -27,6 +28,7 @@ questions:
     composer: 'Vols afegir un fitxer composer.json al mòdul'
     dependencies: 'Vols afegir dependències al mòdul'
     test: 'Vols generar una clase de verificació (Unit Test Class)'
+    twigtemplate: 'Do you want to generate a themeable template'
     controller: 'Vols generar un controlador predeterminat'
 warnings:
     module-unavailable: 'Avís El següent mòdul ja no està disponible al teu entorn local "%s"'

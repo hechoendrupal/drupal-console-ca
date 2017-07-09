@@ -27,3 +27,4 @@ messages:
     no-releases: 'No hi ha cap versió disponible per el mòdul  "%s"'
     installing: 'S''està instal·lant el mòdul "%s"'
     composer: 'The module was installed successfully with Composer'
+    error-creating-folder: 'Error creating folder "%s", please check your permissions'

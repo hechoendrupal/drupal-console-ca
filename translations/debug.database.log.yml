@@ -2,13 +2,15 @@ description: 'Mostrar el registre d''esdeveniments actual de l''aplicació'
 arguments:
     event-id: 'Identificador de l''esdeveniment DBLog'
 options:
-    type: 'Filtrar registre d''esdeveniments per tipus'
-    severity: 'Filtrar el registre d''esdeveniments per nivell de severitat'
-    user-id: 'Filtrar el registre d''esdeveniments per identificador d''usuari'
     asc: 'List events in ascending order'
     limit: 'Limitar el número de resultats'
     offset: 'Punt inicial del límit'
+    yml: 'Print in a yml style'
+    type: 'Filtrar registre d''esdeveniments per tipus'
+    severity: 'Filtrar el registre d''esdeveniments per nivell de severitat'
+    user-id: 'Filtrar el registre d''esdeveniments per identificador d''usuari'
 messages:
+    not-found: 'No s''ha trobat l''esdeveniment DBLog "%s"'
     event-id: 'Identificador de l''esdeveniment'
     type: Tipus
     date: Data
@@ -16,4 +18,3 @@ messages:
     user: Usuari
     severity: Severitat
     invalid-severity: 'No és vàlid el tipus de severitat, el filtre serà ignorat'
-    not-found: 'No s''ha trobat l''esdeveniment DBLog "%s"'

@@ -8,7 +8,10 @@ questions:
 messages:
     invalid-rest-id: 'L''identificador "%s" no es vàlid'
     formats: 'Formats de serialització disponibles'
+    methods: 'Available methods'
     authentication-providers: 'Proveïdors d''autenticació disponibles'
-    selected-state: 'Estats seleccionats'
+    selected-method: 'Selected Method'
     selected-formats: 'Formats seleccionats'
     selected-authentication-providers: 'Proveïdors d''autenticació seleccionats'
+    success: 'Rest ID "%s" enabled'
+    selected-state: 'Estats seleccionats'

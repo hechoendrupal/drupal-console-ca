@@ -1,6 +1,8 @@
 description: 'Mostrar els serveis actuals de l''aplicació.'
 arguments:
     service: 'Service name.'
+    method: 'Method name.'
+    arguments: 'Array of Arguments in CSV or JSON format.'
 messages:
     service_id: 'Identificador del servei'
     class_name: 'Nom de la clase'
@@ -10,3 +12,8 @@ messages:
     parent: 'Parent class'
     variables: Variables
     methods: Methods
+    arguments: Arguments
+    method: Method
+    return: Return
+errors:
+    method_not_exists: 'This method doesn''t exists in this service.'

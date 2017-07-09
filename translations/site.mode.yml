@@ -1,6 +1,8 @@
 description: 'Canviar la configuració de rendiment del sistema'
 arguments:
     environment: 'Nom de l''entorn [dev, prod]'
+options:
+    local: 'Use this option for testing PROD config, but using settings.local.php for connect to your local environment'
 messages:
     configuration: 'Nom de la configuració'
     configuration-key: 'Clau de la configuració'
@@ -9,7 +11,7 @@ messages:
     invalid-env: 'L''entorn no és vàlid'
     new-services-settings: 'Configuració del nou servei'
     service: Servei
-    service-parameter: 'Paràmetre'
+    service-parameter: Paràmetre
     service-value: Valor
     error-copying-file: 'S''ha produït un error durant la còpia del fitxer'
     error-writing-file: 'S''ha produït un error durant la còpia del fitxer'

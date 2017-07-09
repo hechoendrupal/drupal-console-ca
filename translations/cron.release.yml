@@ -1,3 +1,7 @@
 description: 'Desbloquejar el cron del sistema per tornar-lo a executar'
 messages:
     released: 'El cron s''ha desbloquejat correctament'
+examples:
+    -
+        description: 'Execute the cron globally'
+        execution: "drupal cron:execute\n"

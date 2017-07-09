@@ -3,5 +3,13 @@ arguments:
     database: 'Clau de la base de dades des de settings.php'
 options:
     file: ' Nom del fitxer de la còpia de la base de dades'
+    gz: 'Pass this option if you want the sql result file gzipped'
 messages:
     success: 'S''ha exportat la base de dades a:'
+examples:
+    -
+        description: 'Dump default database or the one specified on the argument'
+        execution: "drupal database:dump \\\n  <database>"
+    -
+        description: 'Dump in gz compressed format'
+        execution: "drupal database:dump \\\n  --gz"

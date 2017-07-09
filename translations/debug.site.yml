@@ -4,6 +4,11 @@ messages:
     site: Lloc
     host: Amfitrió
     root: Arrel
-    directory-not-found: 'No s''ha trobat el directori de llocs local'
+    not-sites: 'No sites defined'
+    invalid-site: 'Invalid site name'
     private-key: 'S''ha produït un error amb la clau privada'
     connect-error: 'S''ha produït un error connectant-se amb la màquina remota'
+    directory-not-found: 'No s''ha trobat el directori de llocs local'
+options:
+    target: Target
+    property: Property

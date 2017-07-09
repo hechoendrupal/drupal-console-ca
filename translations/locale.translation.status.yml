@@ -15,3 +15,4 @@ messages:
     local-file-not-found: 'No s''ha trobat el fitxer a "%s"'
     translation-not-determined: 'L''ubicació de la traducció no s''ha trobat.'
     translation-project-updated: Actualitzat
+    translation-project-available: 'New translation available'

@@ -16,3 +16,4 @@ questions:
     has-bundles: 'Vols que aquest contingut tingui bundles'
     base-path: 'Introduïu el camí base per les rutes de l''entitat de contigut'
     is-translatable: 'Is your entity translatable'
+    revisionable: 'Is your entity revisionable'
