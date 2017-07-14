@@ -5,6 +5,7 @@ messages:
     welcome: 'Us donem la benvinguda al comandament cache:rebuild command'
     rebuild: 'Reconstrucció de la memòria cau, esperi un moment.'
     completed: 'La memòria cau S''ha esborrat correctament.'
+    invalid-cache: 'Cache "%s" is invalid.'
     invalid_cache: 'La memòria cau "%s" no es vàlida.'
 questions:
     cache: 'Seleccioneu la memòria cau.'

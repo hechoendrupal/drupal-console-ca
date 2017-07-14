@@ -13,6 +13,7 @@ messages:
     select-release: 'Seleccioneu una versió'
     outside-drupal: 'No s''ha pogut determinar l''arrel de Drupal. Per definir el destí utilitza --root, en qualsevol cas serà utilitzat el directori actual.'
     error-creating-folder: 'S''ha produït un error creant el directori "%s", verifica el permisos'
-tips:
+examples:
     -
-        tip: 'Pass a «true» value to «shellexec_output» key in your config.yml file to see interactively Composer''s output or «false» to hide it'
+        description: 'Download theme specifying name and version'
+        execution: "drupal theme:download  Alina 7.x-1.2\n"

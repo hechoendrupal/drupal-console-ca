@@ -13,3 +13,10 @@ messages:
     regions: Regions
     invalid-theme: 'El tema "%s" no és vàlid'
     theme-properties: Propietats
+examples:
+    -
+        description: 'List of themes on the site'
+        execution: 'drupal debug:theme'
+    -
+        description: 'Bartik theme information'
+        execution: 'drupal debug:theme bartik'

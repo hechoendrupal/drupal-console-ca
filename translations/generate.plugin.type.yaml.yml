@@ -11,3 +11,7 @@ questions:
     class: 'Introduïu el nom de la classe del tipus de connector'
     plugin-name: 'Introduïu el nom màquina del tipus de connector'
     plugin-file-name: 'Introduïu el nom del fitxer (p.e. MODULE.plugin.nomdelfitxer.yml)'
+examples:
+    -
+        description: 'Generate a plugin with Yaml discovery specifying module name, class name, plugin name and plugin file name'
+        execution: "drupal generate:plugin:type:yaml  \\\n  --module=\"modulename\"  \\\n  --class=\"ExamplePlugin\"  \\\n  --plugin-name=\"example_plugin\"  \\\n  --plugin-file-name=\"example.plugin\"\n"

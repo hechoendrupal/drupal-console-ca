@@ -2,3 +2,7 @@ description: 'Llistar els mòduls que implementen una crida al cron'
 messages:
     module-list: 'Mòduls que implementen un mètode del cron'
     module: Mòdul
+examples:
+    -
+        description: 'This will show a list with modules implementing the cron hook'
+        execution: "drupal debug:cron\n"

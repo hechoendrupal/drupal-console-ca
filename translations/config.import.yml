@@ -16,7 +16,3 @@ examples:
     -
         description: 'Provide a configuration directory'
         execution: "drupal config:import  \\\n  --directory=/path/to/config/dir\n"
-arguments:
-    file: 'Camí del fitxer de configuració.'
-    directory: 'Camí del directori de la configuració a importar.'
-    remove-files: 'Eliminar fitxers despres de la sincronització.'

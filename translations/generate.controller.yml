@@ -26,3 +26,7 @@ messages:
     method-name-already-added: 'El métode ja existeix'
     path-already-added: 'El camí ja existeix'
     route-already-added: 'El camí ja existeix'
+examples:
+    -
+        description: 'Generate controller specifying the module name, the class name and its routes'
+        execution: "drupal generate:controller  \\\n  --module=\"modulename\"  \\\n  --class=\"DefaultController\"  \\\n  --routes='\"title\":\"ControllerMethod\", \"name\":\"modulename.default_controller_hello\", \"method\":\"hello\", \"path\":\"/modulename/hello/{name}\"'  \\\n  --test"
