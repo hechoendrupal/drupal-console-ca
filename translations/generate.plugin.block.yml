@@ -20,4 +20,7 @@ questions:
 messages:
     inputs: "\nEs poden afegir camps d''entrada per crear configuracions especials al connector.\nAixò es opcional, tecleja <info>enter</info> per <info>continuar</info>"
     invalid-theme-region: 'La regió "%s" no és vàlida'
-kdescription: 'Generar un connector de bloc'
+examples:
+    -
+        description: 'Generate a plugin block in the header region with an input field specifying the module name, the class, the label, its id, the region and the input'
+        execution: "drupal generate:plugin:block  \\\n  --module=\"modulename\"  \\\n  --class=\"DefaultBlock\"  \\\n  --label=\"Default block\"  \\\n  --plugin-id=\"default_block\"  \\\n  --theme-region=\"header\"  \\\n  --inputs='\"name\":\"inputtext\", \"type\":\"text_format\", \"label\":\"InputText\", \"options\":\"\", \"description\":\"Just an input text\", \"maxlength\":\"\", \"size\":\"\", \"default_value\":\"\", \"weight\":\"0\", \"fieldset\":\"\"'"

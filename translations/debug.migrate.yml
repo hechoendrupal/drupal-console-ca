@@ -6,3 +6,7 @@ messages:
     description: Descripció
     no-migrations: 'No hi han migracions disponibles. Prova executar el comandament: migrate:setup:migrations'
     tags: Etiqueta
+examples:
+    -
+        description: 'Displays current migration'
+        execution: "drupal debug:migrate\n"

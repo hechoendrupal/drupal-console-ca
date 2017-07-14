@@ -5,6 +5,7 @@ questions:
     content-type: 'El tipus de contingut que serà exportat'
     optional-config: 'Exportar un tipus de contingut en un mòdul com una configuració opcional'
 messages:
+    content-type-exported: 'Exporting content type'
     content_type_exported: 'Exportant tipus de contingut'
 options:
     optional-config: 'Exportar tipus de contingut com un fitxer de configuració opcional YAML en el teu mòdul'

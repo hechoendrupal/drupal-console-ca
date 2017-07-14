@@ -16,3 +16,10 @@ messages:
     error-copying-file: 'S''ha produït un error durant la còpia del fitxer'
     error-writing-file: 'S''ha produït un error durant la còpia del fitxer'
     services-file-overwritten: 'S''ha sobreescrit el fitxer de serveis "%s"'
+examples:
+    -
+        description: 'Switch system to prod'
+        execution: 'drupal site:mode  prod'
+    -
+        description: 'Switch system to dev'
+        execution: "drupal site:mode  dev\n"

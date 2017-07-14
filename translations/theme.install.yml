@@ -19,3 +19,7 @@ messages:
     theme-default-success: 'El tema "%s" s''ha instal·lat correctament com a predeterminat'
     disabled-themes: 'Només els temes no instal·lats es mostraran a la compleció automàtica.'
     invalid-theme-default: 'L''opció predeterminada només és vàlida per un sol tema'
+examples:
+    -
+        description: 'Install theme specifying the name'
+        execution: "drupal theme:install  mytheme\n"

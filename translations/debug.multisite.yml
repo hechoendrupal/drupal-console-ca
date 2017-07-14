@@ -5,3 +5,7 @@ messages:
     site: Lloc
     directory: Directori
     site-format: 'Els llocs s''escriuen utilitzant el format: <port>.<domini>.<ruta>'
+examples:
+    -
+        description: 'Displays multisite information'
+        execution: "drupal debug:multisite\n"

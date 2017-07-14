@@ -9,3 +9,7 @@ questions:
     title: 'Introduïu e títol del connector de camp de vista'
     description: 'Introduïu la descripció del connector de camp de vista'
     description_default: 'El meu impressionant connector de camp de vista.'
+examples:
+    -
+        description: 'Generate a custom view field plugin specifying the module name, the class, a title and its description'
+        execution: "drupal generate:plugin:views:field  \\\n  --module=\"modulename\"  \\\n  --class=\"CustomViewsField\"  \\\n  --title=\"Custom views field\"  \\\n  --description=\"My awesome custom views field plugin.\"\n"

@@ -9,4 +9,3 @@ questions:
     description: 'Descripció del permís'
     restrict-access: 'Restringir accés'
     add: 'Vols afegir un altre permís'
-kdescription: 'Generar permisos del mòdul'

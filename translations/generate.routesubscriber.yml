@@ -9,3 +9,7 @@ questions:
     module: common.questions.module
     name: 'Introduïu el nom del servei'
     class: 'Introduïu el nom de classe'
+examples:
+    -
+        description: 'Generate a route subscriber specifying the module name, the route name and its class'
+        execution: "drupal generate:routesubscriber  \\\n  --module=\"modulename\"  \\\n  --name=\"modulename.route_subscriber\"  \\\n  --class=\"RouteSubscriber\"\n"

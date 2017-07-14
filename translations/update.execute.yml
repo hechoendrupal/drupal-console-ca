@@ -6,3 +6,7 @@ messages:
     executing-update: 'S''esta executant l''actualització "%s" del mòdul "%s"'
     module-update-function-not-found: 'El mòdul "%s" no té cap funció d''actualització per "%s"'
     executing-required-previous-updates: 'S''estan executant les actualitzacions requerides'
+examples:
+    -
+        description: 'Update all entities'
+        execution: "drupal update:execute\n"

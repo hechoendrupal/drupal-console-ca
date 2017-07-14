@@ -15,3 +15,7 @@ messages:
     not-found: 'No s''ha trobat el depurador, prova envoltar amb l''identificador de la verificació entre cometes dobles.'
     success-groups: 'S''han llistat correctament els grups de verificació, utilitzeu l''argument del grup per filtrar-los: p.e. $ drupal test:debug Url'
     success-group: 'S''han llistat correctament els grups de verificació "%s"'
+examples:
+    -
+        description: ''
+        execution: "drupal debug:test\n"

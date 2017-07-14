@@ -5,3 +5,7 @@ messages:
     url: 'One-time login per "%s": "%s"'
 errors:
     invalid-user: 'No es pot carregar l''entitat del usuari (Identificador del usuari: "%s").'
+examples:
+    -
+        description: 'Get one time login url for user id 1'
+        execution: "drupal user:login:url  1\n"

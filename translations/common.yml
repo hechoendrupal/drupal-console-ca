@@ -25,7 +25,7 @@ questions:
     inputs:
         confirm: '¿Vols generar una estructura de formulari?'
         label: 'Etiqueta del camp d''entrada'
-        machine_name: 'Nom màquina del camp d''entrada'
+        machine-name: 'Input machine name'
         permission: '¿Vols generar els permissos?'
         type: Tipus
         invalid: 'El camp de tipus "%s" no és vàlid'
@@ -34,6 +34,7 @@ questions:
         weight: 'Pes per l''element d''entrada (weight)'
         title: Títol
         fieldset: 'Conjunt de camps (fieldset)'
+        machine_name: 'Nom màquina del camp d''entrada'
 errors:
     module-dependency: 'Falta la dependència del mòdul "%s"'
     class-name-empty: 'El nom de la clase no pot estar buit'
