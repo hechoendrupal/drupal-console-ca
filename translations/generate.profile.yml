@@ -15,6 +15,9 @@ questions:
     core: 'Introduïu la versió del Core de Drupal'
     dependencies: 'Vols afegir dependències del mòdul'
     distribution: 'Es aquest un perfil d''instal·lació destinat a ser una distribució'
+suggestions:
+    my-useful-profile: 'My Useful Profile'
+    my-kick-ass-distribution: 'My Kick-ass Distribution'
 warnings:
     module-unavailable: 'Advertència Els següents mòduls no estan disponibles al teu entorn local "%s"'
 errors:

@@ -18,6 +18,8 @@ questions:
     account-name: 'Introduïu l''usuari administrador del lloc Drupal'
     account-mail: 'Introduïu el compte de correu per l''administrador del lloc Drupal'
     account-pass: 'Introduïu la contrasenya per l''usuari administrador del lloc Drupal'
+suggestions:
+    site-name: 'My awesome site'
 messages:
     installing: 'Començant el procés d''instal·lació de Drupal 8'
     installed: 'L''instal·lació de Drupal 8 s''ha completat correctament'

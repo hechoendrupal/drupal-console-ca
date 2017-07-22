@@ -17,6 +17,8 @@ questions:
     description: 'Introduïu la descripció del connector'
     default-widget: 'Introduïu el giny de camp predeterminat d''aquest connector'
     default-formatter: 'Introduïu el formatador de camp predeterminat d''aquest connector'
+suggestions:
+    my-field-type: 'My Field Type'
 examples:
     -
         description: 'Generate a field type plugin specifying the module name, the class, its label, the plugin id and a description'
