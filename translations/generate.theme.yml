@@ -37,6 +37,9 @@ questions:
     breakpoint-weight: 'Introduïu el pes del punt d''interrupció'
     breakpoint-multipliers: 'Introduïu el multiplicadors del punt d''interrupció'
     breakpoint-add: 'Vols afegir un altre punt d''interrupció'
+suggestions:
+    my-awesome-theme: 'My Awesome theme'
+    other: Other
 warnings:
     module-unavailable: 'Advertència El següents mòduls no estan disponibles al teu entorn local "%s"'
 errors:

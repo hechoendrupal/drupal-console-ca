@@ -9,3 +9,6 @@ questions:
     description: 'Descripció del permís'
     restrict-access: 'Restringir accés'
     add: 'Vols afegir un altre permís'
+suggestions:
+    access-content: 'Access content'
+    allow-access-content: 'Allow access to my content'

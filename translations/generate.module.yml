@@ -30,6 +30,8 @@ questions:
     test: 'Vols generar una clase de verificació (Unit Test Class)'
     twigtemplate: 'Do you want to generate a themeable template'
     controller: 'Vols generar un controlador predeterminat'
+suggestions:
+    my-awesome-module: 'My Awesome Module'
 warnings:
     module-unavailable: 'Avís El següent mòdul ja no està disponible al teu entorn local "%s"'
 errors:
