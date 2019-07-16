@@ -7,6 +7,7 @@ options:
     db-pass: 'Contrasenya de la base de dades'
     db-prefix: 'Prefix de la base de dades'
     db-port: 'Port de la base de dades'
+    source-base-path: 'Local file directory containing your source site (e.g. /var/www/docroot), or your site address (for example http://example.com)'
     source-base_path: 'Local file directory containing your source site (e.g. /var/www/docroot), or your site address (for example http://example.com)'
     files-directory: 'Directori dels fitxers'
 questions:
@@ -17,6 +18,7 @@ questions:
     db-pass: 'Contrasenya de la base de dades'
     db-prefix: 'Prefix de la base de dades'
     db-port: 'Port de la base de dades'
+    source-base-path: 'Local file directory containing your source site (e.g. /var/www/docroot), or your site address (for example http://example.com)'
     source-base_path: 'Local file directory containing your source site (e.g. /var/www/docroot), or your site address (for example http://example.com)'
     files-directory: 'Directori dels fitxers'
 messages:

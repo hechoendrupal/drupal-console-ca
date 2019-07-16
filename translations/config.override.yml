@@ -8,12 +8,16 @@ arguments:
     key: Clau
     value: Valor
     config-name: 'Nom de la configuració.'
+options:
+    key: Key
+    value: Value
 messages:
     configuration: 'Nom de la configuració'
     configuration-key: 'Clau de la configuració'
     original: 'Valor original'
     updated: 'Valor sobreescrit'
     invalid-name: 'Config object "%s", does not exists'
+    invalid-config-file: 'Config file does not exist.'
 examples:
     -
         description: 'Definir el valor de "flood" del mòdul Contact a 10.'

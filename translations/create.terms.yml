@@ -16,6 +16,7 @@ messages:
     name: Nom
     invalid-vocabularies: 'El vocabulari(s) "%s" no és vàlid'
     created-terms: 'S''han creat correctament "%s" termes'
+    error: 'Error creating terms: "%s"'
 examples:
     -
         description: 'Provide the vocabulary term name.'

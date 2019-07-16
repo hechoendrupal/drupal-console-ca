@@ -1,9 +1,11 @@
 description: 'Còpia de seguretat d''estructura, continguts i taules de la base de dades MySQL'
 arguments:
     database: 'Clau de la base de dades des de settings.php'
+    target: 'Database target from settings.php'
 options:
     file: ' Nom del fitxer de la còpia de la base de dades'
     gz: 'Pass this option if you want the sql result file gzipped'
+    exclude-cache: 'Pass this option if you want to exclude cache tables.'
 messages:
     success: 'S''ha exportat la base de dades a:'
 examples:

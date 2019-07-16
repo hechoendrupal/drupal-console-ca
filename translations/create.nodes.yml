@@ -7,6 +7,7 @@ options:
     limit: 'Quants nodes voldrieu crear'
     title-words: 'Màxim de pararules dels títols de nodes'
     time-range: 'Quant de temps enrere ha de ser la data dels nodes'
+    revision: 'Create revisions'
 questions:
     content-type: 'Seleccioneu els tipus de continguts utilitzats en la creació de nodes'
     limit: 'Introduïu el número de nodes que t''agradaria crear'
@@ -19,6 +20,7 @@ questions:
         - 'Fa 1 setmana'
         - 'Fa 1 mes'
         - 'Fa 1 any'
+    revision: 'Do you want to add revisions?'
 messages:
     node-id: 'Identificador del node'
     content-type: 'Tipus de contingut'
@@ -26,6 +28,7 @@ messages:
     created: 'Data de creació'
     invalid-content-types: 'No és vàlid el tipus de contingut "%s"'
     created-nodes: 'S''han creat correctament "%s" nodes'
+    error: 'Error creating nodes: "%s"'
     generated-content: 'S''han creat correctament "%s" nodes'
 examples:
     -

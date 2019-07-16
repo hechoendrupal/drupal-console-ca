@@ -4,16 +4,20 @@ welcome: 'Us donem la benvinguda al generador de perfil d''instal·lació de Dru
 options:
     profile: 'Nom del perfil'
     machine-name: 'Nom màquina del perfil (només minúscules)'
+    profile-path: 'The path of the profile'
     description: 'Descripció del perfil'
     core: 'Versió del Core'
     dependencies: 'Dependències del mòdul separades per comes (p.e. context, panels)'
+    themes: 'the theme name'
     distribution: 'Nom de la distribució'
 questions:
     profile: 'Introduïu el nom del nou perfil'
     machine-name: 'Introduïu el nom màquina del perfil'
+    profile-path: 'Enter the profile Path'
     description: 'Introduïu la descripció del perfil'
     core: 'Introduïu la versió del Core de Drupal'
     dependencies: 'Vols afegir dependències del mòdul'
+    themes: 'Enter theme name'
     distribution: 'Es aquest un perfil d''instal·lació destinat a ser una distribució'
 suggestions:
     my-useful-profile: 'My Useful Profile'

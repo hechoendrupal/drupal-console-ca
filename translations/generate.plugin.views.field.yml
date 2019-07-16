@@ -1,14 +1,21 @@
 description: 'Generar un connector de camp de vista predeterminat.'
 help: 'El comandament <info>generate:plugin:views:field</info> t''ajuda a generar un nou connector de camp de vista predeterminat.'
+welcome: 'Welcome to the Drupal Plugin View Field generator'
 options:
+    module: 'The Module name.'
+    fields: 'Fields definition (class name, title and description).'
     class: 'Nom de la classe del connector del camp de vista'
     title: 'Títol del connector de camp de vista'
     description: 'Descripció del connector de camp de vista'
 questions:
+    module: 'Enter the module name'
     class: 'Introduïu el nom de la classe del connector del camp de vista'
     title: 'Introduïu e títol del connector de camp de vista'
     description: 'Introduïu la descripció del connector de camp de vista'
     description_default: 'El meu impressionant connector de camp de vista.'
+    field-add: 'Do you want to add another field?'
+messages:
+    views-data-already-implemented: 'The hook views data was already implemented in module "%s". Please, merge the code manually'
 examples:
     -
         description: 'Generate a custom view field plugin specifying the module name, the class, a title and its description'

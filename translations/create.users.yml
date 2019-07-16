@@ -25,6 +25,7 @@ messages:
     username: 'Nom del usuari'
     created: 'Data de creació'
     created-users: 'S''han creat "%s" usuaris correctament'
+    error: 'Error creating users: "%s"'
 examples:
     -
         description: 'Provide the user role.'

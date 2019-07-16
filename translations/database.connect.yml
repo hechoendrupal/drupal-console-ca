@@ -1,5 +1,7 @@
 description: 'Llançar un client de base de dades'
 arguments:
+    key: 'Database key from settings.php'
+    target: 'Database target from settings.php'
     database: 'Clau de la base de dades des de settings.php'
 messages:
     database-not-found: 'No s''han trobat les dades de la connexió de la base de dades "%s"'

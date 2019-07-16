@@ -4,6 +4,7 @@ arguments:
 messages:
     rebuilding: 'Reconstruint rutes, esperi'
     completed: 'Reconstrucció de les rutes realitzades.'
+    error-rebuild: 'Error to rebuild route(s).'
 examples:
     -
         description: 'Rebuild routes'

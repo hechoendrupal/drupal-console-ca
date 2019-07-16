@@ -1,6 +1,6 @@
 options:
     env: 'Nom de l''entorn'
-    no-debug: 'Desactivar el mode de depuració.'
+    debug: 'Switches on debug mode'
     learning: 'Generar codi detallat.'
     generate-chain: 'Imprimir les opcions d''execució i els arguments com una sortida YAML per ser utilitzats amb el comandament "chain".'
     generate-inline: 'Imprimir les opcions d''execució i els arguments com inserits per ser utilitzats en un futur.'
@@ -17,6 +17,7 @@ options:
     no-ansi: 'Deshabilitar sortida ANSI'
     no-interaction: 'No fer cap pregunta de forma interactiva'
     check-fix: 'Attempt to fix any missing configuration.'
+    no-debug: 'Desactivar el mode de depuració.'
 arguments:
     command: 'El comandament a executar'
 messages:
@@ -29,6 +30,8 @@ messages:
     files:
         generated: 'Fitxers generats o actualitzats'
         copied: 'Fitxers copiats'
+    lines-code: 'Generated lines: %s'
+    path: 'Generation path'
     learning:
         route: "Amb l'objectiu de crear les pàgines, es necessari definir les rutes.\nUna ruta assigna una URL a un controlador. Es defineix quina funció\no mètode serà cridat quan s'accedeix a una URL.\nSi l'usuari accedeix a http://drupal8.dev/{{ route }},\nel sistema buscarà aquesta ruta. En aquest cas, si la troba, executarà la crida de retorn. Es aquest cas la crida es definida com a nom de clase\n(\"\\Drupal\\{{ module }}\\Controller\\{{ class_name }}\")\ni un mètode (\"{{ method_name }}\")."
     autocomplete: "Bash o Zsh: Afegir aquesta línia a l'arxiu de configuració de l'interpret d'ordres:\\<info>source \"$HOME/.console/console.rc\" 2>/dev/null</info>\n\nFish: Crear un enllaç simbòlic\n<info>ln -s ~/.console/drupal.fish ~/.config/fish/completions/drupal.fish</info>\n"
@@ -40,6 +43,9 @@ messages:
 errors:
     invalid-command: 'No s''ha definit el comandament "%s".'
     renamed-command: 'Command "%s" was renamed, use "%s" instead.'
+    drush-command: 'Command "%s" is a Drush command (deprecated). Drupal Console equivalent "%s" was executed instead.'
+    statistics-failed: "The Drupal console failed to send statistics. After 10 attempts, this feature was disabled.\nIf you want to enable it again, use the following command:\n\n<info>drupal settings:set statistics.enabled true</info>\n"
+    statistics-url-failed: "The Drupal console failed to send statistics.\nYou must configure it in the global config.yml, use the following command and choose your preference:\n\n<info>drupal init</info>"
 site:
     messages:
         path: 'Camí del lloc web'

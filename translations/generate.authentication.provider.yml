@@ -1,9 +1,14 @@
 description: 'Generar un Proveïdor d''Autenticació'
 help: 'El comandament <info>generate:authentication:provider</info> t''ajuda a generar un nou Proveïdor d''Autenticació.'
+welcome: 'Welcome to the Drupal Authentication Provider generator'
 options:
+    module: 'The Module name.'
     class: 'Clase del Proveïdor d''Autenticació'
     provider-id: 'Identificador del proveïdor'
-module: common.options.module
+questions:
+    module: 'Enter the module name'
+    class: 'Enter the Authentication Provider class'
+    provider-id: 'Enter the Provider ID'
 examples:
     -
         description: 'Generate an authentication provider specifying the module, the class and the provider id'
