@@ -1,4 +1,8 @@
 description: 'Afegir un idioma per el teu lloc web'
 messages:
     invalid-language: 'L''idioma "%s" no és vàlid'
+    invalid-languages: 'Languages "%s" are invalid'
     language-add-successfully: 'L''idioma "%s" s''ha afegit correctament.'
+    languages-add-successfully: 'Languages "%s" were added successfully.'
+    language-installed: 'Language "%s" is already installed.'
+    languages-installed: 'Languages "%s" are already installed.'

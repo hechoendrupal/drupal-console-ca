@@ -4,10 +4,12 @@ messages:
     site: Lloc
     host: Amfitrió
     root: Arrel
-    not-sites: 'No sites defined'
+    invalid-sites: 'No sites defined.'
+    invalid-sites-using: "Using a site alias requires local configuration, more info at:\n   https://docs.drupalconsole.com/en/alias/using-site-alias.html\n"
     invalid-site: 'Invalid site name'
     private-key: 'S''ha produït un error amb la clau privada'
     connect-error: 'S''ha produït un error connectant-se amb la màquina remota'
+    not-sites: 'No sites defined'
     directory-not-found: 'No s''ha trobat el directori de llocs local'
 options:
     target: Target

@@ -10,7 +10,9 @@ options:
     package: 'Paquet del tema'
     composer: 'Afegir un fitxer composer.json'
     base-theme: 'Base del tema (p.e. classy, stable)'
+    base-theme-regions: 'Add the default regions of the chosen base theme'
     global-library: 'Nom global de l''estil de la biblioteca'
+    libraries: Libraries
     regions: Regions
     breakpoints: 'Punts d''interrupció (Breakpoints)'
 questions:

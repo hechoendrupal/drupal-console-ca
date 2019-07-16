@@ -13,6 +13,9 @@ messages:
     set-inline-placeholders: 'Pass inline placeholders as:'
     select-value-for-placeholder: 'Select value for %s placeholder'
     enter-value-for-placeholder: 'Enter value for %s placeholder'
+    legacy-inline: 'Update inline legacy placeholders from %{{name}} to {{name}}.'
+    legacy-environment: 'Update environment legacy placeholders from ${{(NAME}} or %env(NAME)% to {{env("NAME")}}.'
+    metadata-registration: "You should register your chain file as command by providing metadata, more info at:\n   https://docs.drupalconsole.com/en/chains/registering.html"
     missing_file: 'Ha de proveir un nom de fitxer i ruta vàlida.'
     invalid_file: 'No existeix l fitxer "%s".'
     module_install: 'El comandament module:install no es pot executar dins d''una seqüència i s''ha d''executar independentment.'

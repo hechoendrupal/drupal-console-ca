@@ -1,5 +1,6 @@
 description: 'Generar una nova entitat de continguts'
 help: ''
+welcome: 'Welcome to the Drupal Config Entity generator'
 options:
     module: common.options.module
     entity-class: 'Classe de l''entitat de continguts'

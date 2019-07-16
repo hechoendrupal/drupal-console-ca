@@ -1,12 +1,24 @@
 description: 'Executar una funció Update N en un mòdul, o executar-les totes'
-options:
-    update-n: 'Funció Update N a executar'
+questions:
+    update: 'Do you want to run the specified pending updates?'
+    post-update: 'Do you want to run the specified pending post updates?'
+arguments:
+    module: 'Module name'
+    update-n: 'Specific Update N function to be executed'
 messages:
     no-module-updates: 'No han actualitzacions pendents per el mòdul "%s"'
     executing-update: 'S''esta executant l''actualització "%s" del mòdul "%s"'
+    executing-post-update: 'Executing post update function "%s" of module "%s"'
     module-update-function-not-found: 'El mòdul "%s" no té cap funció d''actualització per "%s"'
     executing-required-previous-updates: 'S''estan executant les actualitzacions requerides'
+    no-pending-updates: 'There aren''t updates available'
+    no-pending-post-updates: 'There aren''t post updates available'
+    pending-post-updates: 'There are the following post updates available:'
+    pending-updates: 'There are the following updates available:'
 examples:
     -
         description: 'Update all entities'
         execution: "drupal update:execute\n"
+    -
+        description: 'Execute updates for system module'
+        execution: "drupal update:execute system\n"

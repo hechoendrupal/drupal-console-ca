@@ -1,8 +1,9 @@
 description: 'Esborrar els intents de connexió d''un compte.'
 help: 'El comandament <info>user:login:clear:attempts</info> reinicialitza els intents de connexió d''un compte.'
-options:
-    user-id: 'Identificador del usuari.'
+arguments:
+    user: 'User name/id.'
 questions:
+    user: 'Enter User name/id'
     uid: 'Introduïu l''identificador del usuari.'
     numeric-uid: 'L''identificador del usuari ha de ser un enter.'
     invalid-uid: 'L''identificador del usuari ha de ser superior a zero.'

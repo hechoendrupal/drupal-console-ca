@@ -22,6 +22,9 @@ questions:
         confirm: '¿Vols carregar els serveis del contenidor?'
         message: "\nTecleja el nom del servei o utilitza les tecles de desplaçament.\nAixò es opcional, prem <info>enter</info> per <info>continuar</info>\n"
         name: 'Tecleja el teu servei'
+    roles:
+        message: "\nType the role name or use keyup or keydown.\nThis is optional, press <info>enter</info> to <info>continue</info>\n"
+        name: 'Enter your role'
     inputs:
         confirm: '¿Vols generar una estructura de formulari?'
         label: 'Etiqueta del camp d''entrada'
@@ -34,6 +37,7 @@ questions:
         weight: 'Pes per l''element d''entrada (weight)'
         title: Títol
         fieldset: 'Conjunt de camps (fieldset)'
+        new-field: 'Enter a new field properties'
         machine_name: 'Nom màquina del camp d''entrada'
 errors:
     module-dependency: 'Falta la dependència del mòdul "%s"'
@@ -49,3 +53,4 @@ messages:
     drupal-core: 'Drupal Core'
     move-phar: 'Accedir a la consola des de qualsevol lloc en el teu sistema'
     quick-start: 'Descarregar, instal·lar i servir Drupal 8'
+    available-field-types: 'Available types: <comment>%s</comment>'
